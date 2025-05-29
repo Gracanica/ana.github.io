@@ -12,7 +12,7 @@ body {
   color: white;
 }
 #background{
- background-image: url(/images/slika.jpg);
+ background-image: url(../images/slika.jpg);
 }
 /* Custom Font */
 @font-face {
