@@ -134,7 +134,7 @@ nav a:hover span{
     }
 @font-face {
     font-family:HP ;
-    src: url(./shop/HarryP-MVZ6w.ttf);
+     src: url('./HarryP-MVZ6w.ttf');
 }
     .top-text {
       position: relative;
