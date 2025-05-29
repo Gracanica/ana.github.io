@@ -83,7 +83,7 @@ input, label {
 /* Custom Font */
 @font-face {
     font-family: 'HP';
-    src: url('HarryP-MVZ6w.ttf');
+    src: url('./HarryP-MVZ6w.ttf');
 }
 
 /* Body Styling */

@@ -12,12 +12,12 @@ body {
   color: white;
 }
 #background{
- background-image: url(../images/slika.jpg);
+ background-image: url('../images/slika.jpg');
 }
 /* Custom Font */
 @font-face {
   font-family: 'HP';
-  src: url(HarryP-MVZ6w.ttf);
+  src: url(./HarryP-MVZ6w.ttf);
 }
 
 /* Navigation */
