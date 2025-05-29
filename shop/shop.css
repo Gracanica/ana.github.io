@@ -155,11 +155,11 @@ nav a:hover span{
 }
 
 .middle-section {
-  background:linear-gradient(rgb(107, 92, 29),rgb(30, 93, 30));
+  background:linear-gradient(rgb(61, 52, 13),rgb(31, 78, 31));
 }
 
 .bottom-section {
-  background:linear-gradient(rgb(30, 93, 30),rgb(107, 92, 29));
+  background:linear-gradient(rgb(31, 78, 31),rgb(61, 52, 13));
   
 }
 
@@ -194,7 +194,7 @@ nav a:hover span{
   margin-top: 20px;
   padding: 10px 20px;
   background-color: #ffffff;
-  color: #2c3e50;
+  color: #000000;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
