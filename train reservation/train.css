@@ -1,0 +1,111 @@
+/* Navigation Menu */
+nav a {
+    position: relative;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: beige;
+    padding: 6px 20px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(204, 159, 104);
+}
+
+nav a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-bottom: 2px solid bisque;
+    border-radius: 15px;
+    transform: scale(0) translateY(50px);
+    opacity: 0;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+nav a:hover span {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+}
+
+/* Navigation Wrapper */
+.navigate {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 15px 30px;
+    background-color: #2e2b26;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+}
+
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column; /* stack form elements vertically */
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px 30px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-style: italic;
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    width: fit-content;
+}
+
+/* Input Styling */
+input, label {
+    display: block;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+}
+
+/* Optional: Grouping input with label */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Custom Font */
+@font-face {
+    font-family: 'HP';
+    src: url('HarryP-MVZ6w.ttf');
+}
+
+/* Body Styling */
+body {
+    background-image: url('/images/voc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+/* Heading */
+h1 {
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 70px;
+    color: black;
+    font-family: 'HP', serif;
+    text-shadow: 0 0 15px white;
+}
